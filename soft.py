@@ -1,4 +1,3 @@
-print("Made by vlad")
 import pyautogui, time
 exit = input("Do you want start app:\n")
 def start():

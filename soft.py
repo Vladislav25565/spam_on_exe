@@ -27,6 +27,7 @@ def start():
     for word in f:
         pyautogui.typewrite(word)
         pyautogui.press("enter")
+        print(" ")
         print("Message sending☻")
 if exit == "yes":
     start()
